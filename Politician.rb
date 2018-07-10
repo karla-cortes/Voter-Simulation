@@ -13,5 +13,5 @@ class Politician < Person
       @@politicians.each do |politician|
       print "Politician, #{politician.name}, #{politician.party_affiliation}\n"
     end
-end
+  end
 end
