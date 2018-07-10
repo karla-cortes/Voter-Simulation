@@ -13,6 +13,5 @@ class Voter < Person
     @@voters.each do |voter|
       print "Voter, #{voter.name}, #{voter.political_affiliation}\n"
   end
-
-end
+ end
 end
