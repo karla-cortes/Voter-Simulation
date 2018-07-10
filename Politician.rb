@@ -9,7 +9,6 @@ class Politician < Person
   end
 
   def self.print_pol
-      # print @@politicians
       @@politicians.each do |politician|
       print "Politician, #{politician.name}, #{politician.party_affiliation}\n"
     end
